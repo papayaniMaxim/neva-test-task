@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/neva_test_task/static/css/main.1d550a63.css",
+    "main.js": "/neva_test_task/static/js/main.52220e45.js",
+    "index.html": "/neva_test_task/index.html",
+    "main.1d550a63.css.map": "/neva_test_task/static/css/main.1d550a63.css.map",
+    "main.52220e45.js.map": "/neva_test_task/static/js/main.52220e45.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1d550a63.css",
+    "static/js/main.52220e45.js"
+  ]
+}
