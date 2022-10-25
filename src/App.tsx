@@ -12,11 +12,11 @@ function App() {
           <BrowserRouter>
           <Navigation/>
               <Routes>
-                  <Route path={'/'} element={<LayoutTask />} />
-                  <Route path={'/layout/desktop'} element={<LayoutTaskDesktop />} />
-                  <Route path={'/responsive-table'} element={<ResponsiveTable />} />
-                  <Route path={'/js/task/1'} element={<JSTaskTable />} />
-                  <Route path={'/js/task/2'} element={<JSTaskAB/>}/>
+                  <Route path={'/neva_test_task'} element={<LayoutTask />} />
+                  <Route path={'/neva_test_task/layout/desktop'} element={<LayoutTaskDesktop />} />
+                  <Route path={'/neva_test_task/responsive-table'} element={<ResponsiveTable />} />
+                  <Route path={'/neva_test_task/js/task/1'} element={<JSTaskTable />} />
+                  <Route path={'/neva_test_task/js/task/2'} element={<JSTaskAB/>}/>
               </Routes>
           </BrowserRouter>
     </div>

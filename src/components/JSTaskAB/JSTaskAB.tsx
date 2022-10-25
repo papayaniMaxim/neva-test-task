@@ -44,7 +44,7 @@ function JSTaskAB() {
 
     const startTimeString = new Date(time).toLocaleTimeString()
     
-    const travelTime = returnToA ? new Date(backTime + 50 * 60 * 1000 - time).getMinutes() : 50
+    const travelTime = returnToA ? new Date(backTime + 50 * 60 * 1000 - time).getTime() / 1000 / 60 : 50
     
     const returnTimeString = returnToA
         ? new Date(backTime + 50 * 60 * 1000).toLocaleTimeString()
