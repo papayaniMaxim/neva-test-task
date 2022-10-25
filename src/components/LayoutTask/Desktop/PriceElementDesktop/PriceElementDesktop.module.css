@@ -1,0 +1,26 @@
+.prices {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    color: #000000;
+    line-height: 20px;
+    margin-right: 10px;
+
+}
+.equalPrice {
+    font-size: 36px;
+    margin-right: 10px;
+}
+.onPearcePrice {
+    /* line-height: 14px; */
+    font-size: 14px;
+    margin-top: 5px;
+}
+.svgIcon{
+    vertical-align: middle;
+    margin: 0 5px 0 2px;
+}

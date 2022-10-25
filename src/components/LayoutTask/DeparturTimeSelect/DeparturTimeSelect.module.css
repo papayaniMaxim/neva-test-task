@@ -1,0 +1,23 @@
+.timeItemList {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.timeItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 14px 7px 14px 0;
+    width: fit-content;
+    width: 64px;
+    height: 24px;
+    background: #d9e8ff;
+    border-radius: 11px;
+    cursor: default;
+    transition: 0.1s;
+}
+.timeItem:hover {
+    background: #6ba6ff;
+}
+.moreItem {
+    cursor: pointer;
+}

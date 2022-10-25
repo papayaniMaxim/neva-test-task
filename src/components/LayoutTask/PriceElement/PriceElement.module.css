@@ -1,0 +1,18 @@
+.prices {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    color: #000000;
+    line-height: 20px;
+
+}
+.equalPrice {
+    font-size: 30px;
+}
+.onPearcePrice {
+    font-size: 10px;
+}

@@ -1,24 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import LayoutTaskDesktop from './components/LayoutTask/Desktop/LayoutTaskDesktop/LayoutTaskDesktop';
+import JSTaskAB from './components/JSTaskAB/JSTaskAB';
+import JSTaskTable from './components/JSTaskTable/JSTaskTable';
+import LayoutTask from './components/LayoutTask/LayoutTask';
+import Navigation from './components/Navigation/Navigation';
+import ResponsiveTable from './components/ResponsiveTable/ResponsiveTable';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div >
+          <BrowserRouter>
+          <Navigation/>
+              <Routes>
+                  <Route path={'/'} element={<LayoutTask />} />
+                  <Route path={'/layout/desktop'} element={<LayoutTaskDesktop />} />
+                  <Route path={'/responsive-table'} element={<ResponsiveTable />} />
+                  <Route path={'/js/task/1'} element={<JSTaskTable />} />
+                  <Route path={'/js/task/2'} element={<JSTaskAB/>}/>
+              </Routes>
+          </BrowserRouter>
     </div>
   );
 }
