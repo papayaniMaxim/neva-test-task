@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/neva-test-task/static/css/main.1d550a63.css",
-    "main.js": "/neva-test-task/static/js/main.a3d95bc1.js",
+    "main.css": "/neva-test-task/static/css/main.7916aa9b.css",
+    "main.js": "/neva-test-task/static/js/main.77c79632.js",
     "index.html": "/neva-test-task/index.html",
-    "main.1d550a63.css.map": "/neva-test-task/static/css/main.1d550a63.css.map",
-    "main.a3d95bc1.js.map": "/neva-test-task/static/js/main.a3d95bc1.js.map"
+    "main.7916aa9b.css.map": "/neva-test-task/static/css/main.7916aa9b.css.map",
+    "main.77c79632.js.map": "/neva-test-task/static/js/main.77c79632.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d550a63.css",
-    "static/js/main.a3d95bc1.js"
+    "static/css/main.7916aa9b.css",
+    "static/js/main.77c79632.js"
   ]
 }
