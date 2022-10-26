@@ -133,29 +133,31 @@ function JSTaskTable() {
 
     return (
         <div className={classes.container}>
-            <table className={classes.table}>
-                <thead>
-                    <tr>
-                        <th>id</th>
-                        <th>event_id</th>
-                        <th>event_date</th>
-                        <th>ticket_type</th>
-                        <th>ticket_adult_price</th>
-                        <th>ticket_adult_quantity</th>
-                        <th>ticket_kid_price</th>
-                        <th>ticket_kid_quantity</th>
-                        <th>barcode</th>
-                        <th>user_id</th>
-                        <th>equal_price</th>
-                        <th>created</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {tableBody}
-                </tbody>
-            </table>
+            <div className={classes.wrapper}>
+                <table className={classes.table}>
+                    <thead>
+                        <tr>
+                            <th>id</th>
+                            <th>event_id</th>
+                            <th>event_date</th>
+                            <th>ticket_type</th>
+                            <th>ticket_adult_price</th>
+                            <th>ticket_adult_quantity</th>
+                            <th>ticket_kid_price</th>
+                            <th>ticket_kid_quantity</th>
+                            <th>barcode</th>
+                            <th>user_id</th>
+                            <th>equal_price</th>
+                            <th>created</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {tableBody}
+                    </tbody>
+                </table>
+            </div>
+
             <div className={classes.content}>
-                <img className={classes.image} src='https://i.ibb.co/hgcCR3F/2022-10-25-08-31-57.png' width={400} />
 
                 <p className={classes.description}>
                     Мое представление реализации задачи построения таблицы
@@ -165,6 +167,9 @@ function JSTaskTable() {
                     Данный подход позволяет сколь угодно добавлять и удалять ticket_types генерировать
                     barcodes и вычислять equal_price динамически.
                 </p>
+
+                <img className={classes.image} src='https://i.ibb.co/hgcCR3F/2022-10-25-08-31-57.png' width={400} />
+
             </div>
         </div>);
 }

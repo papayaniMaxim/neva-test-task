@@ -1,0 +1,29 @@
+.navItem {
+    color: black;
+    font-family: "Open Sans";
+    font-style: normal;
+    border: 0.5px solid rgba(128, 128, 128, 0.595);
+}
+.active{
+    background: black;
+    color:white;
+}
+
+@media (max-width: 1000px) {
+    .navItem {
+        margin:10px 5px;
+        padding: 8px;
+        font-size: 14px;
+        border-radius: 3px;
+        text-align: center;
+
+    }
+}
+@media (min-width: 1000px) {
+    .navItem {
+        margin:5px 10px;
+        padding: 10px;
+        font-size: 14px;
+        border-radius: 5px;
+    }
+}
